@@ -1,0 +1,8 @@
+spring:
+  kafka:
+    producer:
+      bootstrap-servers: 172.20.102.225:9092
+      key-serializer: "org.apache.kafka.common.serialization.StringSerializer"
+      value-serializer: "org.apache.kafka.common.serialization.StringSerializer"
+input:
+  topic: "spring.boot.v1.kafka.string.producer"
